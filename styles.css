@@ -1,0 +1,44 @@
+/* CSS & FLEXBOX */
+
+.container {
+  background-color: #fff1fa;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container > p {
+  background-color: deepskyblue;
+  color: aliceblue;
+  font-size: 2rem;
+
+  padding: 16px;
+  margin: 16px;
+}
+
+/* MEDIA QUERIES */
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container > p {
+    background-color: greenyellow;
+    color: aliceblue;
+    font-size: 1.8rem;
+
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+  .container > p {
+    background-color: orange;
+    color: aliceblue;
+    font-size: 1.6rem;
+
+    padding: 5px;
+    margin: 5px;
+  }
+}
